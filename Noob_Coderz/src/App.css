@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,800&display=swap');
+
+*{
+  box-sizing: border-box;  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+ }
+
+ :root{
+  --color-primary: #4db5ff ;
+--color-primary-variant:rgba(77,181,255,0.4)  ;
+--color-light:rgba(255,255,255,0.6) ;
+--color-black: hsl(0, 2%, 12%);
+
+--container-width-lg:75%;
+--container-width-md:86%;
+--container-width-sm:90%;
+ }
+
+ body{
+  font-family: 'Playfair Display', serif;
+  background-image: url(../src/assets/images/background.jpg);
+  line-height: 1.7;
+  color: var(--color-black);
+ }
+ section{
+margin-top: 8rem;
+ }
+ h1,h2,h3,h4,h5{
+  font-weight: 600;
+}
+ h1{
+    font-size: 2.5rem;
+ }
+
+ .container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+section > h2 {
+  text-align: center;
+}
+
+
+@media screen and (max-width:1024px) {
+  .container{
+    width: var(--container-width-md);
+  }
+}
+
+@media screen and (max-width:600px){
+.container{
+  width: var(--container-width-sm);
+}
+}
