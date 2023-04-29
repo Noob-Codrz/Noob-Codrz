@@ -4,7 +4,7 @@ export default function App() {
   return (
     <section>
       <h2> WELCOME TO NOOB CODERZ </h2>
-      <div>
+      <div className='container about_container'>
         <p>Currently Around Construction</p>
 
       </div>
