@@ -1,14 +1,11 @@
 import React from 'react'
 import './App.css'
+import About from './Components/About/About'
 export default function App() {
   return (
-    <section>
-      <h2> WELCOME TO NOOB CODERZ </h2>
-      <div className='container about_container'>
-        <p>Currently Around Construction</p>
-
-      </div>
-    </section>
+    <div>
+      <About/>
+    </div>
 
   )
 }

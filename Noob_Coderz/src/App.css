@@ -27,7 +27,7 @@
   color: var(--color-black);
  }
  section{
-margin-top: 8rem;
+margin-top: 4rem;
  }
  h1,h2,h3,h4,h5{
   font-weight: 600;
@@ -49,10 +49,16 @@ section > h2 {
   .container{
     width: var(--container-width-md);
   }
+  section{
+    margin-top: 6rem;
+  }
 }
 
 @media screen and (max-width:600px){
 .container{
   width: var(--container-width-sm);
+}
+section > h2 {
+  margin-bottom: 2rem;
 }
 }
